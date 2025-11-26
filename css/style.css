@@ -1,0 +1,123 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:'Poppins', sans-serif;
+    background: rgb(0, 0, 0);
+}
+.h1{
+    font-size:20px;
+    font-family:'Poppins', sans-serif;
+    margin:1px;
+    padding: 5px;
+    background: rgb(0, 0, 0);
+    color:rgb(255, 255, 255);
+}
+.h1 span{
+    color:rgb(184, 39, 155);
+}
+.h2{
+    font-size:10px;
+    color:rgb(184, 39, 155);
+    padding:15px;
+    font-family:'Poppins', sans-serif;
+    margin-bottom: 0px;
+}
+.h3{
+    font-size: 50px;
+    color:#ffffff;
+    padding:20px;
+    margin-top:-1em;
+
+}
+.h3 span{
+    color: rgb(184, 39, 155);
+    font-size:2rem;
+}
+.p{
+    color: rgb(184, 39, 155);
+    font-size:10px;
+    padding: 6px;
+    margin-top:-4em;
+    
+}
+.wrapper img{
+    display: auto;
+    max-width:50%;
+    height:auto;
+    border-radius:10px;
+    margin: 0 auto;
+    text-align: left;
+    text-shadow: #333333 10px 10px 20px;
+}
+.social-icons i{
+    display:inline-block;
+    text-align: center;
+    width:40px;
+    height:40px;
+    line-height:40px;
+    border-radius: 50%;
+    margin-right: 10px;
+    color: rgb(184, 39, 155);
+    background-color:#000000;
+    box-shadow:0 2px 5px rgba(0,0,0,0.2);
+    transition:all 0.4s ease;
+}
+.social-icons i:hover{
+    transform: translateY(-3px);
+}
+.service{
+    background:rgb(184, 39, 155);
+    width:100%;
+    padding: 100px 0px;
+}
+.title h3{
+    color:rgb(255, 253, 253);
+    font-size:75px;
+    width:1130px;
+    margin:30px auto;
+    text-align:center;
+}
+.box{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    min-height:400px;
+    flex-wrap:wrap;
+    gap:100px;
+}
+.h5{
+    color:rgb(255, 255, 255);
+}
+.card{
+    height:365px;
+    width:250px;
+    padding:20px 35px;
+    text-align:center;
+    border-radius:20px;
+    margin: 15px;
+    position:relative;
+    text-decoration:none;
+    margin-left: -3rem;
+    text-align:center;
+    font-family:'Poppins', sans-serif;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.card i{
+    font-size:50px;
+    display:block;
+    text-align:center;
+    margin:25px 0px;
+    color:rgb(184, 39, 155);
+}
+.card ul li{
+    text-align:justify;
+    list-style:disc;
+    color:#ffffff
+}
+.card li::marker {
+    color: #ffffff;
+}
+.foote p{
+    color:#ffffff
+}
